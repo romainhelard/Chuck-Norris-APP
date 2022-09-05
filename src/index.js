@@ -8,7 +8,7 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
     <>
     <div id="chuckNorrisDiv">
-      <img id='chuckimg' alt="chuck Norris" src={require('./img/chucknorris-simpsons.png')} />
+      <img id='chuckimg' alt="chuck Norris" src='img/chucknorris-simpsons.png' />
     </div>
 
     <App />
