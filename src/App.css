@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css?family=Cormorant|Overpass");
+
+body {
+  background: linear-gradient(to right, #7D37A0, #492951);
+  font-family: "Overpass";
+  padding-top: 10px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+#githubDiv {
+  margin-top: 10%;
+  margin-left: 40%;
+}
+
+#chuckimg {
+  width: 400px;
+}
+
+#chuckNorrisDiv {
+  margin-left: 15%;
+}
+
+.App {
+  background-color: #fff;
+  padding: 50px;
+  border-radius: 5px;
+  width: 450px;
+}
+
+.joke p.setup {
+  text-indent: 3rem;
+  position: relative;
+}
+
+.joke p.setup::before {
+  content: open-quote;
+  font-size: 5rem;
+  font-weight: bold;
+  position: absolute;
+  left: -3rem;
+  top: -1rem;
+  color: #7D37A0;
+}
+
+.joke p {
+  font-size: 1.8rem;
+}
+
+.btn {
+  text-transform: uppercase;
+  background: linear-gradient(to right, #7D37A0, #492951);
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  padding: 1rem 2rem;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 1rem;
+  text-decoration: none;
+}
+
+.btn:focus,
+.btn:active {
+  border: none;
+  outline: none;
+}
+
+.btn:active {
+  transform: scale(0.98);
+}
+
+.btn.tweet {
+  float: right;
+}
