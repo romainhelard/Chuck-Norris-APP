@@ -6,6 +6,10 @@
 GET https://api.chucknorris.io/jokes/random
 ```
 
+### `npm install`
+
+Install Node Module/Dependencies
+
 ### `npm start`
 
 Runs the app in the development mode.\
